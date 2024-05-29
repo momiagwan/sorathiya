@@ -6,6 +6,7 @@ import Workflow from './components/workflow'
 import Pricing from './components/price'
 import Testimontals from './components/testimontals'
 import Footer from './components/footer'
+import  Router  from "./router/Router"
 
 
 
@@ -17,7 +18,7 @@ const App=()=> {
   return (
   
   
-    <><Navbar/>
+   /*<><Navbar/>
     <div className='max-w-7xl mx-auto pt-20 px-6'> 
     <HeroSection/>
     <FeatureSection/>
@@ -25,11 +26,13 @@ const App=()=> {
     <Pricing/>
     <Testimontals/>
   <Footer/>
+  <Router/>
   
     </div>
    
-    </>
-    
+    </>*/
+
+    <Router/>
   )
 }
 

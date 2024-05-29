@@ -5,7 +5,7 @@
 
  const HeroSection=()=>{
     return (<div className='flex flex-col items-center mt-6 lg:mt-20'>
-        <h1 className='text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide'> <span className='bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text'>Sorathia Muslim Ghanchi Jamat</span></h1>
+        <h1 className='text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide'> <span className='bg-gradient-to-r from-lime-500 to-lime-800 text-transparent bg-clip-text'>Sorathia Muslim Ghanchi Jamat</span></h1>
         <p className='mt-10 text-lg text-center text-neutral-500 max-w-4xl'>Your own community where everyone is working for humanity and brotherhood</p>
         <div className='flex justify-center my-10'>
             <a href='#' className='py-3 px-4 mx-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800'>Current affairs</a>

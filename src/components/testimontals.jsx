@@ -3,7 +3,7 @@ import { testimonials } from '../constants'
 const Testimontals = () => {
   return (
     <div className='mt-20 tracking-wide'>
-        <h2 className='text-3xl sm:text-5xl lg:text-6xl text-center my-10 lg:my-20'>Founders</h2>
+        <h2 className='text-3xl sm:text-5xl lg:text-6xl  bg-gradient-to-r from-blue-500 to-green-800 text-transparent bg-clip-text text-center my-10 lg:my-20'>Founders</h2>
         <div className='flex flex-wrap justify-center'>
             {testimonials.map((testimonial,index)=>(<div key={index} className='w-full sm:w-1/2 lg:w-1/3 px-4 py-2'>
                 <div className='bg-neutral-800 rounded-md p-6 text-md border border-neutral-800 font-thin '>
